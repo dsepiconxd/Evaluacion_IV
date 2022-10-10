@@ -1,0 +1,214 @@
+.Services_I_Offer{
+    width: 100%;
+    height: 100rem;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: space-around;
+    background-color: #FBDA69;
+}
+.Services_I_Offer .titulo2{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    padding: 4rem 2rem;
+}
+.Services_I_Offer h3{
+    font-size: medium;
+    color: rgb(217, 32, 241);
+    font-weight: 300;
+}
+.Services_I_Offer h2{
+    font-size: 6rem;
+    color: rgb(26, 24, 24);
+    font-weight: 500;
+}
+.Services_I_Offer .texto2{
+    width: 33rem;
+    display: flex;
+    flex-direction: row;
+    font-size: 1.2rem;
+}
+.Services_I_Offer .texto2 hr{
+    margin: 0rem 1rem;
+    align-self: center;
+    color: rgb(26, 24, 24);
+}
+.Services_I_Offer .texto2 p{
+    font-size: 1.5rem;
+    font-weight: 300;
+    color: rgb(49, 49, 49);
+}
+
+
+.Explorar{
+    width: 35rem;
+    display: flex;
+    flex-direction: column;
+    margin-top: 5rem;
+}
+.Explorar .E1{
+    width: 35rem;
+    display: flex;
+    flex-direction: column;
+}
+.Explorar .E1 hr{
+    background-color: rgb(0, 0, 0);
+    height: 0.3rem;
+    border: none;
+}
+.Explorar .E1 .Web{
+    width: 35rem;
+    display: flex;
+    flex-direction: row;
+    font-size:4rem;
+}
+.Explorar .E1 .iconoweb{
+    font-size: 1.5rem;
+    margin-left: 6rem;
+    display: flex;
+    flex-direction: row;
+}
+.Explorar .E1 .iconoweb .bt6{
+    width: 5rem;
+    height: 5rem;
+    background-color: #8772F1;
+    border: none;
+    border-radius: 100%;
+    padding: 1.5rem;
+    margin-left: 18rem;
+}
+.Explorar .E1 .iconoweb .bt6 img{
+    width: 2rem;
+    height: 2rem;
+}
+.Explorar .E2{
+    width: 35rem;
+    display: flex;
+    flex-direction: column;
+    margin-top: 3rem;
+}
+.Explorar .E2 hr{
+    background-color: black;
+    height: 0.3rem;
+    border: none;
+}
+.Explorar .E2 .Mobile{
+    width: 35rem;
+    display: flex;
+    flex-direction: row;
+    font-size: 4rem;
+}
+.Explorar .E2 .iconomobile{
+    font-size: 1.5rem;
+    margin-left: 6rem;
+    display: flex;
+    flex-direction: row;
+}
+.Explorar .E2 .iconomobile .bt7{
+    width: 5rem;
+    height: 5rem;
+    background-color: #8772F1;
+    border: none;
+    border-radius: 100%;
+    padding: 1.5rem;
+    margin-left: 18rem;
+}
+.Explorar .E2 .iconomobile .bt7 img{
+    width: 2rem;
+    height: 2rem;
+}
+.Explorar .E3{
+    width: 35rem;
+    display: flex;
+    flex-direction: column;
+    margin-top: 3rem;
+}
+.Explorar .E3 hr{
+    background-color: black;
+    height: 0.3rem;
+    border: none;
+}
+.Explorar .E3 .Dashboard{
+    width: 35rem;
+    display: flex;
+    flex-direction: row;
+    font-size: 4rem;
+}
+.Explorar .E3 .iconodashboard{
+    font-size: 1.5rem;
+    margin-left: 6rem;
+    display: flex;
+    flex-direction: row;
+}
+.Explorar .E3 .iconodashboard .bt8{
+    width: 5rem;
+    height: 5rem;
+    background-color: #8772F1;
+    border: none;
+    border-radius: 100%;
+    padding: 1.5rem;
+    margin-left: 18rem;
+}
+.Explorar .E3 .iconodashboard .bt8 img{
+    width: 2rem;
+    height: 2rem;
+}
+
+/* Este @media se ejecuta cuando la plantalla es  mayor o igual a 1200px*/
+
+@media only screen and (min-width: 1200px){
+    .Services_I_Offer{
+        height: 90rem;
+    }
+    .Services_I_Offer .titulo2{
+        width: 620px;
+    }
+    .Services_I_Offer h3{
+        font-size: 3rem;
+    }
+    .Services_I_Offer h2{
+        font-size: 8rem;
+    }
+    .Services_I_Offer .texto2{
+        width: 55rem;
+        font-size: 2rem;
+    }
+    .Services_I_Offer .Explorar{
+        width: 620px;
+    }
+    .Explorar .E1 .Web{
+        width: 45rem;
+        font-size: 6rem;
+    }
+    .Explorar .E2 .Mobile{
+        width: 55rem;
+        font-size: 6rem;
+    }
+    .Explorar .E3 .Dashboard{
+        width: 50rem;
+        font-size: 6rem;
+    }
+    .Explorar .E1 hr{
+        width: 50rem;
+    }
+    .Explorar .E2 hr{
+        width: 50rem;
+    }
+    .Explorar .E3 hr{
+        width: 50rem;
+    }
+    .Explorar .E1 .iconoweb{
+        font-size: 2rem;
+        margin-left: 9rem;
+    }
+    .Explorar .E2 .iconomobile{
+        font-size: 2rem;
+        margin-left: 9rem;
+    }
+    .Explorar .E3 .iconodashboard{
+        font-size: 2rem;
+        margin-left: 9rem;
+    }
+}

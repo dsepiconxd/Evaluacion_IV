@@ -1,0 +1,215 @@
+.Latest_Projects{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: space-around;
+    background-color: #FBDA69;
+}
+.Latest_Projects .titulo4{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    padding: 4rem 2rem;
+    width: 100%;
+}
+.titulo4 h3{
+    font-size: medium;
+    color: rgb(217, 32, 241);
+    font-weight: 300;
+}
+.titulo4 h2{
+    font-size: 6rem;
+    color: rgb(26, 24, 24);
+    font-weight: 500;
+}
+.Latest_Projects .elecciones{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding: 4rem 2rem;
+}
+.Latest_Projects .elecciones .eleccion1{
+    display: flex;
+    flex-direction: column;
+}
+.Latest_Projects .elecciones .eleccion1 hr{
+    background-color: rgb(0, 0, 0);
+    height: 0.3rem;
+    border: none;
+}
+.Latest_Projects .elecciones .eleccion1 a{
+    font-size: 2rem;
+    color: rgb(49, 49, 49);
+    margin-bottom: 2rem
+}
+.elecciones .eleccion1 .Plantshop{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    font-size: 3rem;
+    margin-top: 2rem;
+}
+.elecciones .eleccion1 .Plantshop .bt15{
+    width: 5rem;
+    height: 5rem;
+    background-color: #8772F1;
+    border: none;
+    border-radius: 100%;
+    padding: 1.4rem;
+    margin-left: 4rem;
+}
+.elecciones .eleccion1 .Plantshop .bt15 img{
+    width: 2rem;
+    height: 2rem;
+}
+.elecciones .eleccion1 img{
+    width: 33rem;
+    height: 33rem;
+
+}
+
+
+.Latest_Projects .elecciones .eleccion2{
+    display: flex;
+    flex-direction: column;
+    margin-top: 4rem;
+}
+.Latest_Projects .elecciones .eleccion2 hr{
+    background-color: rgb(0, 0, 0);
+    height: 0.3rem;
+    border: none;
+}
+.Latest_Projects .elecciones .eleccion2 a{
+    font-size: 2rem;
+    color: rgb(49, 49, 49);
+    margin-bottom: 2rem
+}
+.elecciones .eleccion2 .VPS{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    font-size: 3rem;
+    margin-top: 2rem;
+}
+.elecciones .eleccion2 .VPS .bt16{
+    width: 5rem;
+    height: 5rem;
+    background-color: #8772F1;
+    border: none;
+    border-radius: 100%;
+    padding: 1.4rem;
+    margin-left: 4rem;
+}
+.elecciones .eleccion2 .VPS .bt16 img{
+    width: 2rem;
+    height: 2rem;
+}
+.elecciones .eleccion2 img{
+    width: 33rem;
+    height: 33rem;
+
+}
+
+
+.Latest_Projects .elecciones .eleccion3{
+    display: flex;
+    flex-direction: column;
+    margin-top: 4rem;
+}
+.Latest_Projects .elecciones .eleccion3 hr{
+    background-color: rgb(0, 0, 0);
+    height: 0.3rem;
+    border: none;
+}
+.Latest_Projects .elecciones .eleccion3 a{
+    font-size: 2rem;
+    color: rgb(49, 49, 49);
+    margin-bottom: 2rem
+}
+.elecciones .eleccion3 .Book{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    font-size: 3rem;
+    margin-top: 2rem;
+}
+.elecciones .eleccion3 .Book .bt17{
+    width: 5rem;
+    height: 5rem;
+    background-color: #8772F1;
+    border: none;
+    border-radius: 100%;
+    padding: 1.4rem;
+    margin-left: 4rem;
+}
+.elecciones .eleccion3 .Book .bt17 img{
+    width: 2rem;
+    height: 2rem;
+}
+.elecciones .eleccion3 img{
+    width: 33rem;
+    height: 33rem;
+
+}
+
+/* Este @media se ejecuta cuando la plantalla es  mayor o igual a 1200px*/
+
+@media only screen and (min-width: 1200px){
+    .Latest_Projects{
+        padding: 3rem;
+        align-items: center;
+    }
+    .Latest_Projects .titulo4{
+        width: 100%;
+    }
+    .Latest_Projects .titulo4 h3{
+        font-size: 3rem;
+    }
+    .Latest_Projects .titulo4 h2{
+        font-size: 8rem;
+    }
+    .Latest_Projects .elecciones{
+        width: 100%;
+    }
+    .Latest_Projects .elecciones .eleccion1{
+        width: 39.5rem;
+        height: 60rem;
+    }
+    .elecciones .eleccion1 .Plantshop{
+        font-size: 3.7rem ;
+        align-items: center;
+    }
+    .elecciones .eleccion1 img{
+        width: 38rem;
+        height: 38rem;
+    }
+    .Latest_Projects .elecciones .eleccion2{
+        margin-top: 0rem;
+        margin-left: 4rem;
+        width: 38rem;
+    }
+    .elecciones .eleccion2 .VPS{
+        font-size: 3.7rem ;
+        align-items: center;
+    }
+    .elecciones .eleccion2 img{
+        width: 38rem;
+        height: 38rem;
+    }
+    .Latest_Projects .elecciones .eleccion3{
+        margin-top: 0rem;
+        margin-left: 4rem;
+        width: 38rem;
+    }
+    .elecciones .eleccion3 .Book{
+        font-size: 3.7rem ;
+        align-items: center;
+    }
+    .elecciones .eleccion3 img{
+        width: 38rem;
+        height: 38rem;
+    }
+}

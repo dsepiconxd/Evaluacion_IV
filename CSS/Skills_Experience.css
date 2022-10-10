@@ -1,0 +1,401 @@
+.Skills_Experience{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: space-around;
+    background-color: white;
+}
+.Skills_Experience .titulo3{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    padding: 4rem 2rem;
+}
+.Skills_Experience .titulo3 h3{
+    font-size: medium;
+    color: rgb(217, 32, 241);
+    font-weight: 300;
+}
+.Skills_Experience .titulo3 h2{
+    font-size: 6rem;
+    color: rgb(26, 24, 24);
+    font-weight: 500;
+}
+.Skills_Experience .texto3{
+    width: 33rem;
+    display: flex;
+    flex-direction: row;
+    font-size: 1.3rem;
+}
+.Skills_Experience .titulo3 .texto3 hr{
+    background-color: black;
+    margin: 0rem 1rem;
+    align-self: center;
+} 
+.Skills_Experience .titulo3 .Skills{
+    width: 33rem;
+    height: 40rem;
+    display: flex;
+    flex-direction: row;
+    margin-top: 3rem;
+}
+.Skills .botones1{
+    width: 11rem;
+    display: flex;
+    flex-direction: column;
+}
+.Skills .botones1 .sub1{
+    font-size: 3rem;
+    color: rgb(26, 24, 24);
+}
+.Skills .botones1 p{
+    font-size: 2rem;
+    color: rgb(26, 24, 24);
+    font-weight: 500;
+
+}
+.Skills .botones1 .bt9{
+    width: 7rem;
+    height: 7rem;
+    padding: 1.5rem;
+    background-color: rgb(26, 24, 24);
+    border:none;
+    border-radius: 100%;
+}
+.Skills .botones1 .bt9 img{
+    width: 4rem;
+    height: 4rem;
+}
+.Skills .botones1 .bt10{
+    width: 7rem;
+    height: 7rem;
+    padding: 1.5rem;
+    background-color: rgb(26, 24, 24);
+    border: none;
+    border-radius: 100%;
+    margin-top: 3rem;
+}
+.Skills .botones1 .bt10 img{
+    width: 4rem;
+    height: 4rem;
+}
+.Skills .botones2{
+    width: 11.5rem;
+    display: flex;
+    flex-direction: column;
+
+}
+.Skills .botones2 p{
+    font-size: 2rem;
+    color: rgb(26, 24, 24);
+    font-weight: 500;
+
+}
+.Skills .botones2 .bt11{
+    width: 7rem;
+    height: 7rem;
+    padding: 1.5rem;
+    background-color: rgb(26, 24, 24);
+    border:none;
+    border-radius: 100%;
+    margin-top: 4rem;
+}
+.Skills .botones2 .bt11 img{
+    width: 4rem;
+    height: 4rem;
+}
+.Skills .botones2 .bt12{
+    width: 7rem;
+    height: 7rem;
+    padding: 1.5rem;
+    background-color: rgb(26, 24, 24);
+    border: none;
+    border-radius: 100%;
+    margin-top: 6rem;
+}
+.Skills .botones2 .bt12 img{
+    width: 4rem;
+    height: 4rem;
+}
+.Skills .botones3{
+    width: 11rem;
+    display: flex;
+    flex-direction: column;
+}
+.Skills .botones3 p{
+    font-size: 2rem;
+    color: rgb(26, 24, 24);
+    font-weight: 500;
+
+}
+.Skills .botones3 .bt13{
+    width: 7rem;
+    height: 7rem;
+    padding: 1.5rem;
+    background-color: rgb(26, 24, 24);
+    border:none;
+    border-radius: 100%;
+    margin-top: 4rem;
+}
+.Skills .botones3 .bt13 img{
+    width: 4rem;
+    height: 4rem;
+}
+.Skills .botones3 .bt14{
+    width: 7rem;
+    height: 7rem;
+    padding: 1.5rem;
+    background-color: rgb(26, 24, 24);
+    border: none;
+    border-radius: 100%;
+    margin-top: 3rem;
+}
+.Skills .botones3 .bt14 img{
+    width: 4rem;
+    height: 4rem;
+}
+
+.Experience{
+    width: 35rem;
+    display: flex;
+    flex-direction: column;
+    margin-top: 5rem;
+}
+.Experience .contenido{
+    width: 35rem;
+    display: flex;
+    flex-direction: column;
+}
+.Experience .sub2{
+    font-size: 3rem;
+    color: rgb(26, 24, 24);
+}
+.Experience .Product hr{
+    background-color: rgb(0, 0, 0);
+    height: 0.3rem;
+    border: none;
+}
+.Experience .Product{
+    width: 35rem;
+    display: flex;
+    flex-direction: column;
+    margin-top: 4rem;
+}
+.Experience .Product .plazo1{
+    width: 35rem;
+    display: flex;
+    flex-direction: row;
+    font-size: 1.3rem;
+    align-items: center;
+}
+.Experience .Product .plazo1 p{
+    margin-top: 1rem;
+    margin-left: 0.5rem;
+    font-size: 3rem;
+}
+.Experience .Product .compania1{
+    font-size: 1.5rem;
+    margin-left: 9rem;
+}
+.Experience .UI_UX hr{
+    background-color: rgb(0, 0, 0);
+    height: 0.3rem;
+    border: none;
+}
+.Experience .UI_UX{
+    width: 35rem;
+    display: flex;
+    flex-direction: column;
+    margin-top: 4rem;
+}
+.Experience .UI_UX .plazo2{
+    width: 35rem;
+    display: flex;
+    flex-direction: row;
+    font-size: 1.3rem;
+    align-items: center;
+}
+.Experience .UI_UX .plazo2 p{
+    margin-top: 1rem;
+    margin-left: 2rem;
+    font-size: 3rem;
+}
+.Experience .UI_UX .compania2{
+    font-size: 1.5rem;
+    margin-left: 9rem;
+}
+.Experience .Web2 hr{
+    background-color: rgb(0, 0, 0);
+    height: 0.3rem;
+    border: none;
+}
+.Experience .Web2{
+    width: 35rem;
+    display: flex;
+    flex-direction: column;
+    margin-top: 4rem;
+}
+.Experience .Web2 .plazo3{
+    width: 35rem;
+    display: flex;
+    flex-direction: row;
+    font-size: 1.3rem;
+    align-items: center;
+}
+.Experience .Web2 .plazo3 p{
+    margin-top: 1rem;
+    margin-left: 2.5rem;
+    font-size: 3rem;
+}
+.Experience .Web2 .compania3{
+    font-size: 1.5rem;
+    margin-left: 9rem;
+}
+.Experience .UI_Design hr{
+    background-color: rgb(0, 0, 0);
+    height: 0.3rem;
+    border: none;
+}
+.Experience .UI_Design{
+    width: 35rem;
+    display: flex;
+    flex-direction: column;
+    margin-top: 4rem;
+}
+.Experience .UI_Design .plazo4{
+    width: 35rem;
+    display: flex;
+    flex-direction: row;
+    font-size: 1.3rem;
+    align-items: center;
+}.Experience .UI_Design .plazo4 p{
+    margin-top: 1rem;
+    margin-left: 2rem;
+    font-size: 3rem;
+}
+.Experience .UI_Design .compania4{
+    font-size: 1.5rem;
+    margin-left: 9rem;
+}
+.Experience .imagen2{
+    width: 35rem;
+    height: 35rem;
+
+}
+.Experience .imagen2 img{
+    width: 30rem;
+    height: 30rem;
+    margin: 2rem;
+}
+/* Este @media se ejecuta cuando la plantalla es  mayor o igual a 1200px*/
+
+@media only screen and (min-width: 1200px){
+    .Skills_Experience .titulo3{
+        width: 620px;
+    }
+    .Skills_Experience .titulo3 h3{
+        font-size: 3rem;
+    }
+    .Skills_Experience .titulo3 h2{
+        font-size: 8rem;
+    }
+    .Skills_Experience .titulo3 .texto3{
+        width: 55rem;
+        font-size: 2rem;
+        margin-top: 5rem;
+    }
+    .Skills_Experience .titulo3 .Skills{
+        width: 54rem;
+        margin-top: 18rem;
+    }
+    .titulo3 .Skills .botones1{
+        width: 18rem;
+    }
+    .titulo3 .Skills .botones2{
+        width: 18rem;
+    }
+    .Skills .botones2 .bt12{
+        margin-top: 3rem;
+    }
+    .titulo3 .Skills .botones3{
+        width: 18rem;
+    }
+    .Skills_Experience .Experience{
+        width: 620px;
+    }
+    .Experience .Product hr{
+        width: 60rem;
+    }
+    .Experience .Product .plazo1{
+        width: 55rem;
+    }
+    .Experience .Product .plazo1 a{
+        font-size: 2rem;
+    }
+    .Experience .Product .plazo1 p{
+        font-size: 5rem;
+        font-weight: 500;
+    }
+    .Experience .Product .compania1{
+        font-size: 2rem;
+        margin-left: 12rem;
+    }
+    .Experience .UI_UX hr{
+        width: 60rem;
+    }
+    .Experience .UI_UX .plazo2{
+        width: 55rem;
+    }
+    .Experience .UI_UX .plazo2 a{
+        font-size: 2rem;
+    }
+    .Experience .UI_UX .plazo2 p{
+        font-size: 5rem;
+        font-weight: 500;
+        margin-left: 1rem;
+    }
+    .Experience .UI_UX .compania2{
+        font-size: 2rem;
+        margin-left: 12rem;
+    }
+    .Experience .Web2 hr{
+        width: 60rem;
+    }
+    .Experience .Web2 .plazo3{
+        width: 59rem;
+    }
+    .Experience .Web2 .plazo3 a{
+        font-size: 2rem;
+    }
+    .Experience .Web2 .plazo3 p{
+        font-size: 5rem;
+        font-weight: 500;
+        margin-left: 1rem;
+    }
+    .Experience .Web2 .compania3{
+        font-size: 2rem;
+        margin-left: 12rem;
+    }
+    .Experience .UI_Design hr{
+        width: 60rem;
+    }
+    .Experience .UI_Design .plazo4{
+        width: 59rem;
+    }
+    .Experience .UI_Design .plazo4 a{
+        font-size: 2rem;
+    }
+    .Experience .UI_Design .plazo4 p{
+        font-size: 5rem;
+        font-weight: 500;
+        margin-left: 1rem;
+    }
+    .Experience .UI_Design .compania4{
+        font-size: 2rem;
+        margin-left: 12rem;
+    }
+
+
+}
